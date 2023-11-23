@@ -1,0 +1,45 @@
+.fullTask {
+    border-radius: 24px;
+    padding: 32px 10px;
+    box-sizing: border-box;
+    background: linear-gradient(156deg, rgba(255, 255, 255, 0.10) 0%, rgba(99, 127, 197, 0.00) 84.66%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fullTask * {
+    margin: 0px;
+}
+
+.description {
+    color: rgb(197, 197, 197);
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.status {
+    background: #391a1a;
+    color: red;
+    width: fit-content;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.statusGreen {
+    background: #1a391f;
+    color: rgb(34, 255, 0);
+    width: fit-content;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.ExtraInfo {
+    margin-top: 10px;
+}
+
+#voltarbtn {
+    margin-top: 17px;
+}
